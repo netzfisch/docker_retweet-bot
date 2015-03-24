@@ -1,0 +1,33 @@
+{
+     /*
+     * consumer key and secret.
+     * Get this by registering a new (desktop) application at
+     * http://twitter.com/apps
+     */
+    "consumer_key": $consumer_key,
+    "consumer_secret": $consumer_secret,
+
+    /*
+     * The strings that a tweet should be matched against.
+     * These strings are matched in lower case.
+     */
+    "match": ["@epagesdevs", "#epagesdevs", "#development",
+              "#agile", "#scrum", "#kanban", "#tdd", "#cd", 
+              "#microservices", "#api", "#rest", "#opensource",
+              "#java", "#solr", "#elasticsearch",
+              "#javascript", "#nodejs",
+              "#ruby", "#rails", "#jekyll",
+              "#perl",
+              "#mysql", "#mongodb", "#redis",
+              "#selenium", "#junit", "#rspec",
+              "#linux", "#ubuntu", "#centos", "#coreos",
+              "#vagrant", "#docker", "#vmware"
+             ],
+
+    /*
+     * List name from which statuses are retweeted.
+     * Set this config value if you want to retweet only from
+     * this list instead of your following list.
+     */
+    "retweet_from_list": "auto-retweet"
+}
