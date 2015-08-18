@@ -4,8 +4,8 @@
      * Get this by registering a new (desktop) application at
      * http://twitter.com/apps
      */
-    "consumer_key": $consumer_key,
-    "consumer_secret": $consumer_secret,
+    "consumer_key": ENV['CONSUMER_KEY'],
+    "consumer_secret": ENV['CONSUMER_SECRET'],
 
     /*
      * The strings that a tweet should be matched against.
